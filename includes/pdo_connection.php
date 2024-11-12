@@ -3,7 +3,7 @@
 $host = 'localhost'; // Tên host
 $dbname = 'datn'; // Tên cơ sở dữ liệu
 $username = 'root'; // Tên người dùng MySQL
-$password = ''; // Mật khẩu MySQL
+$password = '123456'; // Mật khẩu MySQL
 
 try {
     // Tạo kết nối PDO

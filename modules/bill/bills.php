@@ -161,7 +161,7 @@ layout('navbar', 'admin', $data);
             <a href="<?php echo getLinkAdmin('bill', 'add') ?>" class="btn btn-secondary" style="color: #fff"><i class="fa fa-plus"></i> Thêm mới </a>
             <a href="<?php echo getLinkAdmin('bill', 'bills'); ?>" class="btn btn-secondary"><i class="fa fa-history"></i> Refresh</a>
             
-            <a href="<?php echo getLinkAdmin('bill', 'export'); ?>" class="btn btn-secondary"><i class="fa fa-save"></i> Xuất Excel</a>
+            <!-- <a href="<?php echo getLinkAdmin('bill', 'export'); ?>" class="btn btn-secondary"><i class="fa fa-save"></i> Xuất Excel</a> -->
 
             <table class="table table-bordered mt-3" style="overflow-x: auto;">
                 <thead>

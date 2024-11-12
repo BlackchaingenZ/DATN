@@ -85,7 +85,7 @@ if(isset($_POST['save_excel_data'])) {
         <div class="col-6">
             <input type="file" name="import_file" class="form-control">
         </div>
-        <button type="submit" name="save_excel_data" class="btn">Import</button>
+        <button type="submit" name="save_excel_data" class="btn btn-primary mt-2">Import</button>
     </form>
 
 </body>

@@ -183,11 +183,11 @@ function getMsg($msg, $type = 'suc')
         echo '<div class="' . $type . '">';
         if ($type === 'suc') {
 ?>
-            <img src="<?php echo _WEB_HOST_ADMIN_TEMPLATE; ?>/assets/img/check.png" alt="">
+            <img src="<?php echo _WEB_HOST_ADMIN_TEMPLATE; ?>/assets/img/check1.png" alt="">
         <?php
         } elseif ($type === 'err') {
         ?>
-            <img src="<?php echo _WEB_HOST_ADMIN_TEMPLATE; ?>/assets/img/error.png" alt="">
+            <img src="<?php echo _WEB_HOST_ADMIN_TEMPLATE; ?>/assets/img/error1.png" alt="">
 <?php
         }
         echo $msg;

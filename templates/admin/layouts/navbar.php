@@ -103,12 +103,12 @@
         
 
         <!-- Item 9 -->
-        <a href="<?php echo getLinkAdmin('sumary'); ?>" class="link__menu ">
+        <!-- <a href="<?php echo getLinkAdmin('sumary'); ?>" class="link__menu ">
           <div class="menu__item">
             <img src="<?php echo _WEB_HOST_ADMIN_TEMPLATE; ?>/assets/img/sum.png" class="menu__item-image" alt="">
             <p class="menu__item-title">Thu/Chi - Tổng kết</p>
           </div>
-        </a>
+        </a> -->
 
         <!-- Item 10 -->
         <a href="<?php echo getLinkAdmin('users'); ?>" class="link__menu ">

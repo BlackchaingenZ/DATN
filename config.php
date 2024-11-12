@@ -9,7 +9,7 @@ const _ACTION_DEFAULT = 'lists'; //Action mặc định
 const _INCODE = true; //Ngăn chặn hành vi truy cập trực tiếp vào file
 
 //Thiết lập host
-define('_WEB_HOST_ROOT', 'http://'.$_SERVER['HTTP_HOST'].'/DATN'); //Địa chỉ trang chủ
+define('_WEB_HOST_ROOT', 'http://'.$_SERVER['HTTP_HOST'].'/DATN-1'); //Địa chỉ trang chủ
 
 define('_WEB_HOST_ADMIN_TEMPLATE', _WEB_HOST_ROOT.'/templates/admin');
 
@@ -21,7 +21,7 @@ define('_WEB_PATH_TEMPLATE', _WEB_PATH_ROOT.'/templates');
 
 const _HOST = 'localhost';
 const _USER = 'root';
-const _PASS = ''; //Xampp => pass='';
+const _PASS = '123456'; //Xampp => pass='';
 const _DB = 'datn';
 const _DRIVER = 'mysql';
 
